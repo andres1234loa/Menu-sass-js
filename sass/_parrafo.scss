@@ -1,0 +1,15 @@
+@import "variables";
+.parrafos
+{
+    width: $ancho;
+    background-color: white;
+    
+
+
+}
+.parrafos p
+{
+    width: $ancho-parrafo;
+    margin: 0 auto;
+    text-align: justify;
+}

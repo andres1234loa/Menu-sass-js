@@ -1,0 +1,33 @@
+
+@import "variables";
+.encabezado
+{
+    width:$ancho;
+    background-color: tan;
+}
+.encabezado .encabezado-listado
+{
+margin: 0;
+display:  flex;
+   
+}
+.encabezado .encabezado-listado li{
+    list-style-type: none;
+    padding: 10px;
+    width: $ancho;
+    transition: all 700ms;
+}
+.encabezado-listado:hover li
+{
+    opacity: 0.5;
+}
+.encabezado-listado:hover  li:hover
+{
+    opacity: 1; 
+    background-color: steelblue;
+    transform: scale(1.2);
+    margin-right: 20px;
+    // traslate desabilita el scale 
+    transform: translateX(10px);
+}
+
